@@ -30,6 +30,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var searchbar: UISearchBar!
     @IBOutlet var table: UITableView!
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
